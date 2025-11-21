@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data (ham verilerin repoya eklenmesini istemiyorsanız)
+data/raw/*
+!data/raw/.gitkeep
+
+# Modelle ilgili büyük dosyalar
+models/*
+!models/.gitkeep
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
