@@ -1,0 +1,7 @@
+import pandas as pd
+
+print("Teste başlıyoruz...")
+
+df = pd.read_csv('/content/drive/MyDrive/Proje/data/ornek.csv')  # Verinin yolunu sonra beraber ayarlarız
+print(df.head())
+print(df.info())
